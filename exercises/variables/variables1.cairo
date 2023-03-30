@@ -3,6 +3,8 @@
 // Execute `starklings hint variables1` or use the `hint` watch subcommand for a hint.
 
 
+use debug::PrintTrait;
+
 fn main() {
     let x = 5;
     debug::print_felt(x);

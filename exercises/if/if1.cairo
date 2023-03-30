@@ -17,11 +17,11 @@ mod tests {
 
     #[test]
     fn ten_is_bigger_than_eight() {
-        assert(10 == bigger(10, 8), '10 bigger than 8');
+        assert(10_usize == bigger(10_usize, 8_usize), '10 bigger than 8');
     }
 
     #[test]
     fn fortytwo_is_bigger_than_thirtytwo() {
-        assert(42 == bigger(32, 42), '42 bigger than 32');
+        assert(42_usize == bigger(32_usize, 42_usize), '42 bigger than 32');
     }
 }

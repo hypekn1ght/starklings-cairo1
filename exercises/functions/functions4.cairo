@@ -11,7 +11,7 @@ use traits::Into;
 
 fn main() {
     let original_price = 51_u32;
-    debug::print_felt(sale_price(original_price).into());
+    sale_price(original_price).print();
 }
 
 fn sale_price(price: u32) -> u32{

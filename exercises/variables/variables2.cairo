@@ -4,8 +4,8 @@
 fn main() {
     let x = 10;
     if x == 10 {
-        debug::print_felt('x is ten!');
+        ('x is ten!').print();
     } else {
-        debug::print_felt('x is not ten!');
+        ('x is not ten!').print();
     }
 }

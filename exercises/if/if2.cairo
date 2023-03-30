@@ -5,7 +5,7 @@
 // Execute `starklings hint if2` or use the `hint` watch subcommand for a hint.
 
 
-fn foo_if_fizz(fizzish: felt) -> felt {
+fn foo_if_fizz(fizzish: felt252) -> felt252 {
     // Complete this function using if, else if and/or else blocks.
     // If fizzish is,
     // 'fizz', return 'foo'

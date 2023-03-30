@@ -3,16 +3,18 @@
 // No hints, there's no tricks, just get used to typing these :)
 
 
+use debug::PrintTrait;
+
 fn main() {
     // Booleans (`bool`)
 
     let is_morning = true;
     if is_morning {
-        debug::print_felt('Good morning!');
+        ('Good morning!').print();
     }
 
     let is_evening = false;
     if is_evening {
-        debug::print_felt('Good evening!');
+        ('Good evening!').print();
     }
 }

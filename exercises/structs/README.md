@@ -5,11 +5,11 @@ They are declared like so:
 
 ```rust
 struct Rectangle {
-    width: felt,
-    height: felt,
+    width: felt252,
+    height: felt252,
 }
 ```
 
 ## Further information
 
-- [Structures](https://link.medium.com/MeQ1Agthrxb#ff54]
+- [Structures](https://medium.com/nethermind-eth/a-first-look-at-cairo-1-0-a-safer-stronger-simpler-provable-programming-language-892ce4c07b38#ff54]
